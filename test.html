@@ -1,0 +1,153 @@
+prototype2.html
+Details
+Activity
+prototype2.html
+Sharing Info
+F
+M
+General Info
+Type
+HTML
+Size
+3 KB (3,021 bytes)
+Storage used
+0 bytesOwned by someone else
+Location
+LOG670
+Owner
+Fadi Nammour
+Modified
+12:51 AM by Fadi Nammour
+Opened
+9:46 AM by me
+Created
+12:51 AM
+Description
+Add a description
+Download permissions
+Viewers can download
+All selections cleared
+New Team Drive
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<table>
+  <tr>
+    <th>Animaux</th>
+    <th>Location</th>
+    <th>Camion</th>
+  </tr>
+  <tr>
+    <td>
+    Espece :
+    <select name="Espece">
+  <option value="vache">Vache</option>
+  <option value="poulet">Poulet</option>
+  <option value="porc">Porc</option>
+  <option value="elephant">Elephant</option>
+  <option value="lion">Lion</option>
+</select>
+    <form action="action_page.php">
+  <br> Nombre:
+  <input type="integer" name="nombreespece" value="0">
+  <br><br>
+  Location :
+    <select name="Location">
+  <option value="ferme">Ferme1</option>
+  <option value="abattoir">Abattoir1</option>
+  <option value="centredivertissement">Centre de divertissement1</option>
+  <option value="pitstop">Pitstop1</option>
+  <option value="garage">Garage1</option>
+</select>
+  <br><br>
+  <button type="button">Créer</button>
+</form> </td>
+    <td>
+    Type :
+    <select name="Location">
+  <option value="ferme">Ferme</option>
+  <option value="abattoir">Abattoir</option>
+  <option value="centredivertissement">Centre de divertissement</option>
+  <option value="pitstop">Pitstop</option>
+  <option value="garage">Garage</option>
+  </select>
+<br><br><br>
+  Nom:<br>
+  <input type="text" name="nom" value="Entrer nom">
+  <br><br>
+  <button type="button">Créer</button>
+  <br>
+</td>
+    <td>
+    Nom:<br>
+  <input type="text" name="nom" value="Entrer nom">
+  <br><br>
+  <button type="button">Créer</button>
+  <br>
+  </td>
+  </tr>
+  <tr>
+    <th>Trajet</th>
+    <th>Animation</th>
+    <th>Contrat</th>
+  </tr>
+  <tr>
+    <td>Locations:<br>
+  <input type="text" name="Locations" value="Entrer liste [(locations,'1' pour changement de leader '0' sinon),...]">
+  <br><br>
+  Lieu de chargement :
+    <select name="Location">
+  <option value="ferme">Ferme</option>
+  <option value="abattoir">Abattoir</option>
+  <option value="centredivertissement">Centre de divertissement</option>
+  <option value="pitstop">Pitstop</option>
+  <option value="garage">Garage</option>
+  </select>
+<br><br>
+Lieu de dechargement :
+    <select name="Location">
+  <option value="ferme">Ferme</option>
+  <option value="abattoir">Abattoir</option>
+  <option value="centredivertissement">Centre de divertissement</option>
+  <option value="pitstop">Pitstop</option>
+  <option value="garage">Garage</option>
+  </select>
+<br></td>
+    <td>
+    <img src="http://www.themarysue.com/wp-content/uploads/2010/07/070910_openmaps.jpg" alt="W3Schools.com" style="width:208px;height:284px;">
+    </td>
+    <td>Commande:<br>
+  <input type="text" name="commande" value="Entrer liste [(animaux,nombre),...]">
+  <br><br>
+  Date:<br>
+  <input type="text" name="date" value="jj/mm/aaaa">
+  <br><br>
+  <button type="button">Lancer</button>
+  </td>
+  </tr>
+  
+</table>
+
+</body>
+</html>
